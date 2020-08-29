@@ -24,9 +24,13 @@ struct HomeView: View {
             
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 30) {
-                    ForEach(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
-                        SectionView()
+                    ForEach(sectionData) { item in
+                        GeometryReader { geometry in
+                            SectionView(section: item)
+                                .rotation3DEffect(Angle(degrees: Double(geometry.frame(in: .global).minX - 30) / -20), axis: (x: 0, y: 10.0, z: 0))
+                        }
                     }
+                .frame(width: 275, height: 275)
                 }
                 .padding(30)
                 .padding(.bottom, 30)
@@ -45,29 +49,46 @@ struct HomeView_Previews: PreviewProvider {
 }
 
 struct SectionView: View {
+    var section:Section
+    
     var body: some View {
         VStack {
             HStack(alignment: .top) {
-                Text("Prototype design in SwiftUI")
+                Text(section.title)
                     .font(.system(size: 24, weight: .bold))
                     .foregroundColor(.white)
                     .frame(width: 160, alignment: .leading)
                 Spacer()
-                Image("Logo1")
+                Image(section.logo)
             }
             
-            Text("18 Sections".uppercased())
+            Text(section.text.uppercased())
                 .frame(maxWidth: .infinity, alignment: .leading)
             
-            Image("Card1")
+            section.image
                 .resizable()
                 .frame(width: 210)
         }
         .padding(.top, 20)
         .padding(.horizontal, 20)
         .frame(width: 275, height: 275)
-        .background(Color("card1"))
+        .background(section.color)
         .cornerRadius(30)
-        .shadow(color: Color("card1").opacity(0.3), radius: 20, x: 0, y: 20)
+        .shadow(color: section.color.opacity(0.3), radius: 20, x: 0, y: 20)
     }
 }
+
+struct Section:Identifiable {
+    var id = UUID()
+    var title: String
+    var text: String
+    var logo: String
+    var image: Image
+    var color: Color
+}
+
+let sectionData = [
+    Section(title: "Prototype design in SwiftUI", text: "18 Sections", logo: "Logo1", image: Image("Card1"), color: Color("card1")),
+    Section(title: "Build a SwiftUI app", text: "20 Sections", logo: "Logo2", image: Image("Card2"), color: Color("card2")),
+    Section(title: "SwiftUI Advanced", text: "20 Sections", logo: "Logo3", image: Image("Card3"), color: Color("card3"))
+]
