@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EAC918C24F955AF0075897B /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAC918B24F955AF0075897B /* MenuView.swift */; };
 		2EC3F3F924F8AF6200E7362D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC3F3F824F8AF6200E7362D /* AppDelegate.swift */; };
 		2EC3F3FB24F8AF6200E7362D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC3F3FA24F8AF6200E7362D /* SceneDelegate.swift */; };
 		2EC3F3FD24F8AF6200E7362D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC3F3FC24F8AF6200E7362D /* ContentView.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2EAC918B24F955AF0075897B /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		2EC3F3F524F8AF6200E7362D /* SwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EC3F3F824F8AF6200E7362D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EC3F3FA24F8AF6200E7362D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				2EC3F3F824F8AF6200E7362D /* AppDelegate.swift */,
 				2EC3F3FA24F8AF6200E7362D /* SceneDelegate.swift */,
 				2EC3F3FC24F8AF6200E7362D /* ContentView.swift */,
+				2EAC918B24F955AF0075897B /* MenuView.swift */,
 				2EC3F3FE24F8AF6700E7362D /* Assets.xcassets */,
 				2EC3F40324F8AF6700E7362D /* LaunchScreen.storyboard */,
 				2EC3F40624F8AF6700E7362D /* Info.plist */,
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EC3F3F924F8AF6200E7362D /* AppDelegate.swift in Sources */,
+				2EAC918C24F955AF0075897B /* MenuView.swift in Sources */,
 				2EC3F3FB24F8AF6200E7362D /* SceneDelegate.swift in Sources */,
 				2EC3F3FD24F8AF6200E7362D /* ContentView.swift in Sources */,
 			);
