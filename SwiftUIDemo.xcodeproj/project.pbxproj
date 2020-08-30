@@ -19,6 +19,7 @@
 		2EC3F41024F8AF6700E7362D /* SwiftUIDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC3F40F24F8AF6700E7362D /* SwiftUIDemoTests.swift */; };
 		2EC3F41B24F8AF6700E7362D /* SwiftUIDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC3F41A24F8AF6700E7362D /* SwiftUIDemoUITests.swift */; };
 		2EC4592A24FB4C01009C98CA /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC4592924FB4C01009C98CA /* UpdateList.swift */; };
+		2EC4592C24FB5469009C98CA /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC4592B24FB5469009C98CA /* UpdateDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		2EC3F41A24F8AF6700E7362D /* SwiftUIDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemoUITests.swift; sourceTree = "<group>"; };
 		2EC3F41C24F8AF6700E7362D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EC4592924FB4C01009C98CA /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
+		2EC4592B24FB5469009C98CA /* UpdateDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				2E08E1C424FA0E970061C3EB /* Home.swift */,
 				2E08E1C624FA20C70061C3EB /* HomeView.swift */,
 				2EC4592924FB4C01009C98CA /* UpdateList.swift */,
+				2EC4592B24FB5469009C98CA /* UpdateDetail.swift */,
 			);
 			path = SwiftUIDemo;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				2EC3F3F924F8AF6200E7362D /* AppDelegate.swift in Sources */,
 				2EC4592A24FB4C01009C98CA /* UpdateList.swift in Sources */,
 				2EAC918C24F955AF0075897B /* MenuView.swift in Sources */,
+				2EC4592C24FB5469009C98CA /* UpdateDetail.swift in Sources */,
 				2E08E1C524FA0E970061C3EB /* Home.swift in Sources */,
 				2E08E1C724FA20C70061C3EB /* HomeView.swift in Sources */,
 				2EC3F3FB24F8AF6200E7362D /* SceneDelegate.swift in Sources */,
