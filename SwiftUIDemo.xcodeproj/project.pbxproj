@@ -20,6 +20,7 @@
 		2EC3F41B24F8AF6700E7362D /* SwiftUIDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC3F41A24F8AF6700E7362D /* SwiftUIDemoUITests.swift */; };
 		2EC4592A24FB4C01009C98CA /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC4592924FB4C01009C98CA /* UpdateList.swift */; };
 		2EC4592C24FB5469009C98CA /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC4592B24FB5469009C98CA /* UpdateDetail.swift */; };
+		2EC4592E24FB5F63009C98CA /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC4592D24FB5F63009C98CA /* UpdateStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		2EC3F41C24F8AF6700E7362D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EC4592924FB4C01009C98CA /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
 		2EC4592B24FB5469009C98CA /* UpdateDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetail.swift; sourceTree = "<group>"; };
+		2EC4592D24FB5F63009C98CA /* UpdateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				2E08E1C624FA20C70061C3EB /* HomeView.swift */,
 				2EC4592924FB4C01009C98CA /* UpdateList.swift */,
 				2EC4592B24FB5469009C98CA /* UpdateDetail.swift */,
+				2EC4592D24FB5F63009C98CA /* UpdateStore.swift */,
 			);
 			path = SwiftUIDemo;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EC3F3F924F8AF6200E7362D /* AppDelegate.swift in Sources */,
+				2EC4592E24FB5F63009C98CA /* UpdateStore.swift in Sources */,
 				2EC4592A24FB4C01009C98CA /* UpdateList.swift in Sources */,
 				2EAC918C24F955AF0075897B /* MenuView.swift in Sources */,
 				2EC4592C24FB5469009C98CA /* UpdateDetail.swift in Sources */,

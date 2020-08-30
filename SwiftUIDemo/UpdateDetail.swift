@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct UpdateDetail: View {
-    var update:Update = updateData[0]
+    var update:Update
     var body: some View {
         List {
             VStack(spacing: 20) {
@@ -26,6 +26,6 @@ struct UpdateDetail: View {
 
 struct UpdateDetail_Previews: PreviewProvider {
     static var previews: some View {
-        UpdateDetail()
+        UpdateDetail(update: updateData[0])
     }
 }
