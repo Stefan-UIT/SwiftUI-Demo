@@ -21,6 +21,7 @@
 		2EC4592A24FB4C01009C98CA /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC4592924FB4C01009C98CA /* UpdateList.swift */; };
 		2EC4592C24FB5469009C98CA /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC4592B24FB5469009C98CA /* UpdateDetail.swift */; };
 		2EC4592E24FB5F63009C98CA /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC4592D24FB5F63009C98CA /* UpdateStore.swift */; };
+		2EC4593024FB65F6009C98CA /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC4592F24FB65F6009C98CA /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		2EC4592924FB4C01009C98CA /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
 		2EC4592B24FB5469009C98CA /* UpdateDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetail.swift; sourceTree = "<group>"; };
 		2EC4592D24FB5F63009C98CA /* UpdateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
+		2EC4592F24FB65F6009C98CA /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				2EC3F40024F8AF6700E7362D /* Preview Content */,
 				2E08E1C424FA0E970061C3EB /* Home.swift */,
 				2E08E1C624FA20C70061C3EB /* HomeView.swift */,
+				2EC4592F24FB65F6009C98CA /* TabBar.swift */,
 				2EC4592924FB4C01009C98CA /* UpdateList.swift */,
 				2EC4592B24FB5469009C98CA /* UpdateDetail.swift */,
 				2EC4592D24FB5F63009C98CA /* UpdateStore.swift */,
@@ -294,6 +297,7 @@
 				2E08E1C724FA20C70061C3EB /* HomeView.swift in Sources */,
 				2EC3F3FB24F8AF6200E7362D /* SceneDelegate.swift in Sources */,
 				2EC3F3FD24F8AF6200E7362D /* ContentView.swift in Sources */,
+				2EC4593024FB65F6009C98CA /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
